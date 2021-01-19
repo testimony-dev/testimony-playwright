@@ -24,10 +24,11 @@
   },
   "homepage": "https://github.com/testimony-dev/testimony-playwright#readme",
   "devDependencies": {
-    "better-queue": "^3.8.10",
-    "playwright": "^1.7.1"
+
   },
   "dependencies": {
-    "winston": "^3.3.3"
+    "winston": "^3.3.3",
+    "better-queue": "^3.8.10",
+    "playwright": "^1.7.1"
   }
 }
