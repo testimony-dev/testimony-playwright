@@ -1,6 +1,6 @@
 {
   "name": "testimony-playwright",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "instrumented exploratory test session tracker",
   "main": "index.js",
   "scripts": {
