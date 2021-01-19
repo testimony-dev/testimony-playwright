@@ -1,7 +1,5 @@
-# testimony-playwright
-
-
 # Testimony-Playwright
+
 Automated Exploratory testing activity tracker using Playwright.js
 
 ## Launching a Session
