@@ -1,0 +1,33 @@
+{
+  "name": "testimony-playwright",
+  "version": "0.0.1",
+  "description": "instrumented exploratory test session tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testimony-dev/testimony-playwright.git"
+  },
+  "keywords": [
+    "playwright",
+    "test",
+    "exploratory",
+    "testing",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/testimony-dev/testimony-playwright/issues"
+  },
+  "homepage": "https://github.com/testimony-dev/testimony-playwright#readme",
+  "devDependencies": {
+    "better-queue": "^3.8.10",
+    "playwright": "^1.7.1"
+  },
+  "dependencies": {
+    "winston": "^3.3.3"
+  }
+}

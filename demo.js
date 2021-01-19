@@ -1,10 +1,3 @@
-# Testimony-Playwright
-
-Automated Exploratory testing activity tracker using Playwright.js
-
-## Launching a Session
-
-```
 const { chromium } = require('playwright');
 const TestSession = require('./testSession')
 const ConsoleTracker = require('./trackers/consoleTracker');
@@ -27,5 +20,3 @@ testSession.track(new ScreenshotTracker());
 const initialUrl=`https://www.google.com`;
 await testSession.start(browser,initialUrl);
 })();
-
-```
