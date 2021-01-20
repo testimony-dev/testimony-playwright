@@ -6,10 +6,10 @@ Automated Exploratory testing activity tracker using Playwright.js
 
 ```
 const { chromium } = require('playwright');
-const TestSession = require('./testSession')
-const ConsoleTracker = require('./trackers/consoleTracker');
-const ClickTracker = require('./trackers/clickTracker');
-const ScreenshotTracker = require('./trackers/screenshotTracker');
+const TestSession =require('testimony-playwright/testSession');
+const ConsoleTracker = require('testimony-playwright/trackers/consoleTracker');
+const ClickTracker = require('testimony-playwright/trackers/clickTracker');
+const ScreenshotTracker = require('testimony-playwright/trackers/screenshotTracker');
 const args = process.argv.slice(2);
 
 
