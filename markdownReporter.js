@@ -54,6 +54,16 @@ module.exports = class MarkdownReporter {
 
     }
 
+    note(event){
+        this.logger.info(`### Note \r\n ${event.eventData.message}`);
+
+    }
+
+    custom(event){
+        this.logger.info(`### ${event.eventData.title} \r\n ${event.eventData.message}`);
+
+    }
+
 
 
     storeImage(imgName, base64Data){
