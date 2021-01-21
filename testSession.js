@@ -14,8 +14,8 @@ module.exports = class TestSession {
 
     async start(browser, initialUrl){
          this.q = new Queue((event, cb)=>{
-             const reportFunc= this.reporter[event.eventType] || this.reporter.custom;
-             reportFunc(event);
+            const eventType= (event.eventType in this.reporter) ? event.eventType : 'custom' ;
+            this.reporter[eventType](event)
             cb(null,Date.now());
         });
 
