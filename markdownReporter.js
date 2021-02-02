@@ -13,7 +13,7 @@ module.exports = class MarkdownReporter {
         this.logger = new winston.createLogger({
         transports: [
             new winston.transports.File({
-                filename: `${this.sessionTitle}/sessionReport.md`,
+                filename: `${this.sessionTitle}/sessionData/sessionReport.md`,
                 level:'info'
             })
         ],
